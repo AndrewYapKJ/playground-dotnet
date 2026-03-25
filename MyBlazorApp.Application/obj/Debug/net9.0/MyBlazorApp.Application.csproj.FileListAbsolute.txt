@@ -1,0 +1,15 @@
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/bin/Debug/net9.0/MyBlazorApp.Application.deps.json
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/bin/Debug/net9.0/MyBlazorApp.Application.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/bin/Debug/net9.0/MyBlazorApp.Application.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/bin/Debug/net9.0/MyBlazorApp.Domain.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/bin/Debug/net9.0/MyBlazorApp.Domain.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazorApp.Application.csproj.AssemblyReference.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazorApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazorApp.Application.AssemblyInfoInputs.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazorApp.Application.AssemblyInfo.cs
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazorApp.Application.csproj.CoreCompileInputs.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazor.BE320C53.Up2Date
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazorApp.Application.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/refint/MyBlazorApp.Application.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/MyBlazorApp.Application.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Application/obj/Debug/net9.0/ref/MyBlazorApp.Application.dll

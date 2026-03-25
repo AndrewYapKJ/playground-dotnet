@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlazorApp.Application\MyBlazorApp.Application.csproj" />
+    <ProjectReference Include="..\MyBlazorApp.Domain\MyBlazorApp.Domain.csproj" />
+    <ProjectReference Include="..\MyBlazorApp.Infrastructure\MyBlazorApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

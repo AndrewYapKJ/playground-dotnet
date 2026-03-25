@@ -1,0 +1,11 @@
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/bin/Debug/net9.0/MyBlazorApp.Domain.deps.json
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/bin/Debug/net9.0/MyBlazorApp.Domain.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/bin/Debug/net9.0/MyBlazorApp.Domain.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/MyBlazorApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/MyBlazorApp.Domain.AssemblyInfoInputs.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/MyBlazorApp.Domain.AssemblyInfo.cs
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/MyBlazorApp.Domain.csproj.CoreCompileInputs.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/MyBlazorApp.Domain.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/refint/MyBlazorApp.Domain.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/MyBlazorApp.Domain.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Domain/obj/Debug/net9.0/ref/MyBlazorApp.Domain.dll

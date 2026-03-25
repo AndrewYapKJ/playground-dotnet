@@ -1,0 +1,17 @@
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Infrastructure.deps.json
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Infrastructure.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Infrastructure.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Application.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Domain.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Application.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Domain.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.csproj.AssemblyReference.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.AssemblyInfoInputs.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.AssemblyInfo.cs
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.csproj.CoreCompileInputs.cache
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazor.D1445051.Up2Date
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/refint/MyBlazorApp.Infrastructure.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/ref/MyBlazorApp.Infrastructure.dll
