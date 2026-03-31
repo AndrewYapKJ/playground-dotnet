@@ -133,3 +133,4 @@
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.UI/obj/Debug/net9.0/MyBlazorApp.UI.genruntimeconfig.cache
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.UI/obj/Debug/net9.0/ref/MyBlazorApp.UI.dll
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.UI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.UI/bin/Debug/net9.0/BCrypt.Net-Next.dll

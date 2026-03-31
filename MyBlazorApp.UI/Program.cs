@@ -5,13 +5,44 @@ using MyBlazorApp.Infrastructure.Data;
 using MyBlazorApp.UI.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add Database  ← ADD THIS BLOCK
+// Add Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+// Add Auth Service
+builder.Services.AddScoped<IAuthService, AuthService>();
+
+// Add JWT Authentication
+var jwtSecret = builder.Configuration["Jwt:Secret"];
+var key = Encoding.ASCII.GetBytes(jwtSecret);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = true,
+        ValidIssuer = "PlaygroundAPI",
+        ValidateAudience = true,
+        ValidAudience = "PlaygroundUI",
+        ValidateLifetime = true
+    };
+});
+
+builder.Services.AddAuthorization();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -32,6 +63,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Add Authentication & Authorization middleware
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseAntiforgery();
 
@@ -39,6 +73,7 @@ app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
+app.MapAuthEndpoints();
 app.MapProductEndpoints();
 
 app.Run();
