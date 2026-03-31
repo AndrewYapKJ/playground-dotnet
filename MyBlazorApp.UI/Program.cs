@@ -1,9 +1,17 @@
 using MyBlazorApp.UI.Components;
 using MyBlazorApp.Application.Interfaces;
 using MyBlazorApp.Infrastructure.Services;
+using MyBlazorApp.Infrastructure.Data;
+using MyBlazorApp.UI.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add Database  ← ADD THIS BLOCK
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -31,16 +39,6 @@ app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
-app.MapGet("/api/products", async (IProductService productService) =>
-{
-    var products = await productService.GetAllProductsAsync();
-    return Results.Ok(products);
-});
-
-app.MapGet("/api/products/{id:int}", async (int id, IProductService productService) =>
-{
-    var product = await productService.GetProductByIdAsync(id);
-    return product != null ? Results.Ok(product) : Results.NotFound();
-});
+app.MapProductEndpoints();
 
 app.Run();

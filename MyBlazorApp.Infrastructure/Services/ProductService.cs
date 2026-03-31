@@ -1,19 +1,22 @@
 using MyBlazorApp.Application.Interfaces;
 using MyBlazorApp.Domain.Entities;
+using MyBlazorApp.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyBlazorApp.Infrastructure.Services;
 
 public class ProductService : IProductService
 {
-    private readonly List<Product> _products = new()
+    private readonly ApplicationDbContext _context;
+
+    public ProductService(ApplicationDbContext context)
     {
-        new Product { Id = 1, Name = "Laptop", Price = 1500 },
-        new Product { Id = 2, Name = "Phone", Price = 800 },
-        new Product { Id = 3, Name = "Tablet", Price = 500 }
-    };
+        _context = context;
+    }
 
-    public Task<List<Product>> GetAllProductsAsync() => Task.FromResult(_products);
+    public async Task<List<Product>> GetAllProductsAsync() 
+        => await _context.Products.ToListAsync();
 
-    public Task<Product?> GetProductByIdAsync(int id)
-        => Task.FromResult(_products.FirstOrDefault(p => p.Id == id));
+    public async Task<Product?> GetProductByIdAsync(int id) 
+        => await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
 }

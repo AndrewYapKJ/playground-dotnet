@@ -1,4 +1,5 @@
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Infrastructure.deps.json
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Infrastructure.runtimeconfig.json
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Infrastructure.dll
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Infrastructure.pdb
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/bin/Debug/net9.0/MyBlazorApp.Application.dll
@@ -14,4 +15,5 @@
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.dll
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/refint/MyBlazorApp.Infrastructure.dll
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.pdb
+/Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/MyBlazorApp.Infrastructure.genruntimeconfig.cache
 /Volumes/REPO/PERSONAL/dotnet-playground/MyBlazorApp.Infrastructure/obj/Debug/net9.0/ref/MyBlazorApp.Infrastructure.dll
