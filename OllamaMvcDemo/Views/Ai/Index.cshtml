@@ -1,0 +1,29 @@
+@{
+   ViewData["Title"] = "AI Test";
+}
+
+<h2>Ollama AI Test</h2>
+
+<form method="post" asp-action="Ask">
+
+   <textarea name="prompt" rows="5" style="width:100%">
+Explain invoice fields
+    </textarea>
+
+   <br />
+   <button type="submit">
+      Ask AI
+   </button>
+
+</form>
+
+<hr />
+
+@if (ViewBag.Response != null)
+{
+   <h3>Response</h3>
+
+   <pre>
+      @ViewBag.Response
+   </pre>
+}
